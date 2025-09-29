@@ -1,0 +1,95 @@
+.main{
+  margin: 0px;
+  padding: 0px;
+  padding-left: 2%;
+}
+
+.nav{
+
+    height: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+p{
+
+  width: 90%;
+  padding-left: 35%;
+
+}
+.reg_form{
+  /* margin-left: 2%;
+  width: 94%;
+  margin-right: 2%;
+  height: 75vh;
+  display: flex;
+  align-items:start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: white; */
+  width: 94%;
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
+}
+h1{
+  margin-top: 2vh;
+  font-size: 40px ;
+  padding-left:2% ;
+}
+
+.reg_form input{
+  font-size: 20px;
+  width: 250px;
+  height: 5vh;
+ 
+}
+ 
+.addrss{
+  width: 96%;
+
+}
+.addrss input{
+font-size:20px ;
+ width: 100%;
+ height: 15vh;
+
+}
+.button{
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  right: 27%;
+  gap: 10%;  
+}
+
+.reg_form button{
+  width: 200px;
+}
+.button1{
+  background-color: rgb(2, 78, 122);
+}
+.button2{
+  background-color:rgb(16, 103, 110) ;
+}
+
+.line{
+    margin-bottom: 2vh;
+   width: 90%;
+    border-bottom: 2px solid lightgray;
+
+}
+
+.reg_form input:focus{
+  outline: none;
+}

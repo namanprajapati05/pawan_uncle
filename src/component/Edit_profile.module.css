@@ -1,0 +1,60 @@
+.nav{
+
+    height: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+
+}
+h1{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    min-height: 40vh;
+}
+
+.inputs{
+    margin-left: 2%;
+    border: 1px solid lightgray;
+    background-color: white;
+
+    border-radius: 10px;
+    padding-top:4vh ;
+    padding-bottom: 4vh;
+    width: 80%;
+    padding-left: 5%;
+
+}
+.input_tag button{
+    position: relative;
+    background-color: green;
+    right: 6%;
+    width: 100px;
+}
+.input_tag span{
+    font-size: large;
+}
+.input_tag{
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_tag input{
+    width: 40%;
+    height: 40px;
+    position: absolute;
+    right: 20%;
+}
+
+.update{
+    margin-left: 2%;
+}
+
+.input_tag input:focus{
+    outline: none;
+}
