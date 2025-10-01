@@ -1,0 +1,115 @@
+.edit{
+    margin-top: 10vh;
+    width: 90;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(232, 242, 252);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+h1{
+    color: rgb(64, 50, 37);
+    font-size: 40px;
+}
+.edit form{
+    width: 86%;
+    min-height: 100vh;
+    background-color: rgb(255, 254, 245);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 1px lightgray;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 4%;
+   
+}
+.personal{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.personal input{
+    margin-top: 4vh;
+    height: 36px;
+    width: 43%;
+    border-radius: 10px;
+    border: 1px solid 	rgb(227, 213, 188);
+    padding-left: 2%;
+    background-color: rgb(245, 241, 225);
+}  
+.refer{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid 	rgb(227, 213, 188);
+    background-color: rgb(245, 241, 225);
+    margin-top: 3vh;
+ 
+}
+.refer input{
+   height: 30px;
+   width: 70%;
+   border: none;
+   background-color: rgb(245, 241, 225) ;
+   padding-left: 20px;
+   padding-bottom: 2vh;
+   font-size: medium ;
+   padding: 1vh;
+}
+.refer button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(97, 128, 171);
+    color: rgb(223, 228, 237);
+    border: none;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.line{
+    width: 96%;
+    border-bottom: 2px solid rgb(245, 239, 223);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+     margin-right: 4%;
+}
+.status{
+    margin-top: 5vh;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+
+}
+.status p{
+    font-size: 25px;
+     color: rgb(64, 50, 37);
+}
+.status button{
+    height: 35px;
+    width: 150px;
+    background-color: rgb(97, 128, 171);
+    color: rgb(223, 228, 237);
+    border: none;
+    border-radius: 10px;
+    margin-right:10px;
+}
+.add{
+    width: 100%;
+}
+.update{
+    width: 250px;
+    height: 60px;
+    margin-top: 5vh;
+    border-radius:30px ;
+    border: none;
+    background-color: rgb(181, 136, 89);
+    color: rgb(250, 246, 240);
+    font-size: larger;
+
+}

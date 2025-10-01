@@ -1,0 +1,45 @@
+.nav{
+
+    height: 60px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+    margin-bottom: 3vh;
+
+}
+
+.about{
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 88%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about h1{
+  color: black;
+}
+.about p{
+    color: black;
+    font-size: large;
+      line-height: 1.6;
+     /* letter-spacing: 4px; */
+}
+.about span{
+    color: black;
+    font-size: large;
+      line-height: 1.6;
+}
+.heading{
+    margin-left: -2%;
+    margin-bottom:2vh ;
+      line-height: 1.6;
+}
+
+.about li{
+    font-size: large;
+    margin-top: 2vh;
+      line-height: 1.6;
+}
+.about h2{
+  margin-top: 2vh;
+}
